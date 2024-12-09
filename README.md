@@ -14,7 +14,7 @@ Além disso, o projeto inclui o **BarBot**, uma inteligência artificial que sug
     - Registro de contas com validação de nome, e-mail e senha.
     - Sistema seguro de autenticação com JWT.
 2. **Feed de Postagens**
-    - Visualize, curta, comente em postagens de outros usuários.
+    - Visualize, curta e comente em postagens de outros usuários.
     - Poste fotos e descrições de suas criações.
 3. **Perfil de Usuário**
     - Personalize seu perfil com nome e biografia curta.
