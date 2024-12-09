@@ -1,31 +1,67 @@
+# **Liquid - Rede Social de Drinks**
 
+## **Sobre o Projeto**
 
-Liquid - Rede Social de Drinks
+**Liquid** é uma rede social inovadora para amantes de drinks. A plataforma conecta entusiastas de coquetéis, permitindo que compartilhem receitas, descubram criações e interajam em uma comunidade vibrante.
 
-Sobre o projeto: Liquid é uma rede social inovadora dedicada aos amantes de drinks. Aqui, você pode compartilhar suas criações, descobrir novas receitas e explorar o mundo dos coquetéis com uma comunidade de pessoas que compartilham a mesma paixão. Além disso, você pode contar com o BarBot, um assistente inteligente que, com base nos ingredientes que você tem em casa, sugere drinks personalizados, com receitas e histórias dos coquetéis.
+Além disso, o projeto inclui o **BarBot**, uma inteligência artificial que sugere drinks com base nos ingredientes que você possui em casa, oferecendo receitas e histórias de coquetéis.
 
-Funcionalidades Principais
+---
 
-Cadastro de Usuário:
-Criação de conta com nome, email, senha e confirmação de maioridade (maior de 18 anos).
+## **Funcionalidades Principais**
 
-Feed de Posts:
-Navegue pelo feed e veja os posts de pessoas que você segue.
-Faça comentários, curta e interaja com os posts.
-Edite e exclua seus próprios posts a qualquer momento.
+1. **Cadastro e Autenticação de Usuários**
+    - Registro de contas com validação de nome, e-mail e senha.
+    - Sistema seguro de autenticação com JWT.
+2. **Feed de Postagens**
+    - Visualize, curta e comente em postagens de outros usuários.
+    - Poste fotos e descrições de suas criações.
+3. **Perfil de Usuário**
+    - Personalize seu perfil com nome e biografia curta.
+4. **BarBot - Assistente de Drinks**
+    - Sugestões personalizadas de drinks usando ingredientes disponíveis.
+    - Receitas detalhadas e histórias sobre coquetéis icônicos.
 
-Perfil de Usuário:
-Personalize seu perfil com foto, bio e informações de usuário.
+---
 
-BarBot (Assistente de Coquetéis):
-Coloque as bebidas que você tem em casa, e o BarBot, usando a API do ChatGPT, sugerirá drinks que você pode fazer. Ele também fornecerá a história e a receita de cada drink.
+## **Tecnologias Utilizadas**
 
+- **Frontend**: React, Axios, React Router.
+- **Backend**: Spring Boot, Node.js (integração com ChatGPT).
+- **Banco de Dados**: PostgreSQL.
 
-Tecnologias Utilizadas
+---
 
+## **Como Configurar e Executar o Projeto**
 
-Frontend: React
+### **Pré-requisitos**
 
-Backend: Spring Boot, Java, Node
+- **Node.js** e **npm** (ou yarn).
+- **Java 17+** e **Maven**.
+- **PostgreSQL**.
 
-Banco de Dados: PostgreSQL
+### **Passos Gerais**
+
+1. Clone o repositório:
+    git clone https://github.com/seuusuario/liquid.git
+    cd liquid
+       
+2. 	Configure e inicialize os serviços:
+    - **Backend**: Configuração e execução com Spring Boot.
+    - **Frontend**: Configuração e execução com React.
+      
+3. Acesse a aplicação em `http://localhost:3000`.
+
+---
+
+## **Estrutura do Repositório**
+
+- **/frontend**: Código do frontend.
+- **/backend**: Código do backend.
+- **/docs**: Documentação e outros materiais.
+
+---
+
+## **Licença**
+
+Este projeto está licenciado sob a MIT License.

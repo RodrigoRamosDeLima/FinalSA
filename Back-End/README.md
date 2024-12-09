@@ -1,31 +1,81 @@
+# **Backend - Liquid**
 
+## **Descrição**
 
-Liquid - Rede Social de Drinks
+O backend do Liquid gerencia autenticação de usuários, operações CRUD e a integração com o BarBot para geração de receitas de drinks.
 
-Sobre o projeto: Liquid é uma rede social inovadora dedicada aos amantes de drinks. Aqui, você pode compartilhar suas criações, descobrir novas receitas e explorar o mundo dos coquetéis com uma comunidade de pessoas que compartilham a mesma paixão. Além disso, você pode contar com o BarBot, um assistente inteligente que, com base nos ingredientes que você tem em casa, sugere drinks personalizados, com receitas e histórias dos coquetéis.
+---
 
-Funcionalidades Principais
+## **Funcionalidades do Backend**
 
-Cadastro de Usuário:
-Criação de conta com nome, email, senha e confirmação de maioridade (maior de 18 anos).
+- Autenticação com JWT para segurança.
+- CRUD completo para postagens e usuários.
+- Integração com a API do ChatGPT para funcionalidade do BarBot.
+- Documentação dos endpoints com **Swagger**.
 
-Feed de Posts:
-Navegue pelo feed e veja os posts de pessoas que você segue.
-Faça comentários, curta e interaja com os posts.
-Edite e exclua seus próprios posts a qualquer momento.
+---
 
-Perfil de Usuário:
-Personalize seu perfil com foto, bio e informações de usuário.
+## **Tecnologias Utilizadas**
 
-BarBot (Assistente de Coquetéis):
-Coloque as bebidas que você tem em casa, e o BarBot, usando a API do ChatGPT, sugerirá drinks que você pode fazer. Ele também fornecerá a história e a receita de cada drink.
+- **Spring Boot**: Framework para criação de APIs REST.
+- **Node.js**: Gerenciamento da API do ChatGPT.
+- **PostgreSQL**: Banco de dados relacional.
 
+---
 
-Tecnologias Utilizadas
+## **Como Configurar e Executar o Backend**
 
+### **Pré-requisitos**
 
-Frontend: React
+- **Java 17+** e **Maven**.
+- **PostgreSQL**.
 
-Backend: Spring Boot, Java, Node
+### **Passos**
 
-Banco de Dados: PostgreSQL
+1. Navegue até o diretório `backend`:
+    cd backend
+
+2. Configure o arquivo `application.properties`:
+    spring.datasource.url=jdbc:postgresql://localhost:5432/liquid
+    spring.datasource.username=SEU_USUARIO
+    spring.datasource.password=SUA_SENHA
+      
+3. Configure a chave da API do ChatGPT em um arquivo `.env`:
+    OPENAI_API_KEY=SUA_CHAVE_API
+  
+4. Execute o servidor:
+     mvn spring-boot:run
+    
+5. O backend estará disponível em `http://localhost:8080`.
+
+---
+
+## **Estrutura do Diretório**
+
+- **/src/main/java**: Código principal.
+- **/src/main/resources**: Configurações e scripts SQL.
+- **/src/test/java**: Testes automatizados.
+
+---
+
+## **Dependências**
+
+- Spring Boot Starter Web.
+- Spring Boot Starter Security.
+- JWT.
+- PostgreSQL Driver.
+
+---
+
+## **DER - Diagrama de Entidade-Relacionamento**
+
+Adicione uma imagem do DER para melhor documentação no Notion.
+
+---
+
+### **Imagens**
+
+Adicione prints do Swagger para ilustrar:
+
+- Lista de endpoints.
+- Exemplo de requisição e resposta.

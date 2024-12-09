@@ -1,31 +1,63 @@
+# **Frontend - Liquid**
 
+## **Descrição**
 
-Liquid - Rede Social de Drinks
+O frontend do Liquid é responsável por oferecer uma interface de usuário moderna e responsiva. Ele foi desenvolvido utilizando React, com navegação em SPA (Single Page Application).
 
-Sobre o projeto: Liquid é uma rede social inovadora dedicada aos amantes de drinks. Aqui, você pode compartilhar suas criações, descobrir novas receitas e explorar o mundo dos coquetéis com uma comunidade de pessoas que compartilham a mesma paixão. Além disso, você pode contar com o BarBot, um assistente inteligente que, com base nos ingredientes que você tem em casa, sugere drinks personalizados, com receitas e histórias dos coquetéis.
+---
 
-Funcionalidades Principais
+## **Funcionalidades do Frontend**
 
-Cadastro de Usuário:
-Criação de conta com nome, email, senha e confirmação de maioridade (maior de 18 anos).
+- Autenticação de usuários e gerenciamento de sessões.
+- CRUD de postagens no feed.
+- Perfis personalizáveis com fotos e biografia.
+- Consumo de APIs REST para funcionalidades dinâmicas.
+- Integração com o **BarBot** para sugestões de drinks.
 
-Feed de Posts:
-Navegue pelo feed e veja os posts de pessoas que você segue.
-Faça comentários, curta e interaja com os posts.
-Edite e exclua seus próprios posts a qualquer momento.
+---
 
-Perfil de Usuário:
-Personalize seu perfil com foto, bio e informações de usuário.
+## **Tecnologias Utilizadas**
 
-BarBot (Assistente de Coquetéis):
-Coloque as bebidas que você tem em casa, e o BarBot, usando a API do ChatGPT, sugerirá drinks que você pode fazer. Ele também fornecerá a história e a receita de cada drink.
+- **React**: Construção da interface.
+- **Axios**: Integração com APIs REST.
+- **React Router**: Gerenciamento de rotas.
 
+---
 
-Tecnologias Utilizadas
+## **Como Configurar e Executar o Frontend**
 
+### **Pré-requisitos**
 
-Frontend: React
+- **Node.js** e **npm** (ou yarn).
 
-Backend: Spring Boot, Java, Node
+### **Passos**
 
-Banco de Dados: PostgreSQL
+1. Navegue até o diretório `frontend`:
+     cd frontend
+    
+2. Instale as dependências:
+    npm install
+    
+4. Inicie o servidor de desenvolvimento:     
+    npm run dev
+    
+5. Acesse a aplicação em `http://localhost:3000`.
+
+---
+
+## **Estrutura do Diretório**
+
+- **/src/components**: Componentes React reutilizáveis.
+- **/src/pages**: Páginas principais da aplicação.
+- **/src/services**: Configuração de consumo de APIs.
+
+---
+
+## **Imagens**
+
+Adicione screenshots no Notion para representar:
+
+- Tela de login.
+- Tela do feed.
+- Página de perfil.
+- Funcionalidade do BarBot.
