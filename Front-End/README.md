@@ -39,7 +39,7 @@ O frontend do Liquid é responsável por oferecer uma interface de usuário mode
     npm install
     
 4. Inicie o servidor de desenvolvimento:     
-    npm start
+    npm run dev
     
 5. Acesse a aplicação em `http://localhost:3000`.
 
