@@ -55,9 +55,18 @@ O frontend do Liquid é responsável por oferecer uma interface de usuário mode
 
 ## **Imagens**
 
-Adicione screenshots no Notion para representar:
 
 - Tela de login.
+![login](https://github.com/user-attachments/assets/f8efbde8-a088-4aad-951a-9777b2b7a88d)
+![cadastro](https://github.com/user-attachments/assets/d9af3c26-6488-4bc1-b2ef-b54a5cd4472e)
+  
 - Tela do feed.
+![feed](https://github.com/user-attachments/assets/99d83648-a6b3-468f-9730-a8d0e862a488)
+![novoPost](https://github.com/user-attachments/assets/165d167e-bc90-4d89-8a8b-f4018f9d0907)
+  
 - Página de perfil.
+![perfil](https://github.com/user-attachments/assets/89c703c8-cd6d-4494-8b26-7a603ef65a1f)
+  
 - Funcionalidade do BarBot.
+![BarBot](https://github.com/user-attachments/assets/98a28ad0-7b82-47c5-bbb7-7892cc509a38)
+
