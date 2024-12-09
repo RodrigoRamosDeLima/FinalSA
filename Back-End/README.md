@@ -67,13 +67,7 @@ O backend do Liquid gerencia autenticação de usuários, operações CRUD e a i
 
 ---
 
-## **DER - Diagrama de Entidade-Relacionamento**
 
-Adicione uma imagem do DER para melhor documentação no Notion.
-
----
-
-### **Imagens**
 
 Adicione prints do Swagger para ilustrar:
 
