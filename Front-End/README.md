@@ -56,11 +56,11 @@ O frontend do Liquid é responsável por oferecer uma interface de usuário mode
 ## **Imagens**
 
 
-- Tela de login.
+- Tela de login e cadastro.
 ![login](https://github.com/user-attachments/assets/f8efbde8-a088-4aad-951a-9777b2b7a88d)
 ![cadastro](https://github.com/user-attachments/assets/d9af3c26-6488-4bc1-b2ef-b54a5cd4472e)
   
-- Tela do feed.
+- Tela do feed e nova postagem.
 ![feed](https://github.com/user-attachments/assets/99d83648-a6b3-468f-9730-a8d0e862a488)
 ![novoPost](https://github.com/user-attachments/assets/165d167e-bc90-4d89-8a8b-f4018f9d0907)
   
