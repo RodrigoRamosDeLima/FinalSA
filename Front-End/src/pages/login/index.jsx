@@ -25,8 +25,8 @@ export default function Login() {
 
     const [isLogin, setIsLogin] = useState(true);
 
-    const [login, setLogin] = useState('gpelias');
-    const [password, setPassword] = useState('1q2w3e');
+    const [login, setLogin] = useState('');
+    const [password, setPassword] = useState('');
 
     const [nome, setNome] = useState('');
     const [user, setUser] = useState('');

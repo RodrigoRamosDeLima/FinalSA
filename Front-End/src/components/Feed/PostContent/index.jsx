@@ -1,10 +1,10 @@
-import {useState} from 'react';
-import {Container} from './styles';
+import { useState } from 'react';
+import { Container } from './styles';
 import PropTypes from 'prop-types';
 import CommentSection from "./CommentSection/index.jsx";
-import {atualizarCurtida, deletarPostagem} from "../../../service/Post/index.js";
+import { atualizarCurtida, deletarPostagem } from "../../../service/Post/index.js";
 
-export default function PostContent({post: {id, user, title, description, imageId, comments, likes, liked, ownPost}, load}) {
+export default function PostContent({ post: { id, user, title, description, imageId, comments, likes, liked, ownPost }, load }) {
     const [likesItem, setLikesItem] = useState(likes);
     const [likedItem, setLikedItem] = useState(liked);
 
@@ -23,7 +23,7 @@ export default function PostContent({post: {id, user, title, description, imageI
         } catch {
             alert("Error deleting post");
         }
-    }
+    };
 
     const toggleExpanded = () => setIsExpanded(!isExpanded);
 
@@ -31,15 +31,20 @@ export default function PostContent({post: {id, user, title, description, imageI
         <div className="postContainer">
             <Container>
                 <h2>{title} - {user}</h2>
-                <img src={`http://localhost:8080/files/${imageId}`} alt="Drink"/>
+                <img src={`http://localhost:8080/files/${imageId}`} alt="Drink" />
                 <div className="like-section">
                     <button
-                        className={`like-button ${liked ? 'liked' : ''}`}
+                        className={`like-button ${likedItem ? 'liked' : ''}`}
                         onClick={handleLike}
                     >
                         {likedItem ? '💜' : '🤍'}
                     </button>
                     <span>{likesItem} curtidas</span>
+                    {ownPost && (
+                        <button className="delete-button" onClick={deletePost}>
+                            Deletar
+                        </button>
+                    )}
                 </div>
                 <p className={`description ${isExpanded ? 'expanded' : 'truncated'}`}>
                     {description}
@@ -50,21 +55,10 @@ export default function PostContent({post: {id, user, title, description, imageI
                         Ver mais
                     </p>
                 )}
-                {ownPost && (
-                    <button onClick={deletePost}>
-                        deletar
-                    </button>
-                )}
                 {isExpanded && (
-                    <>
-                        <p
-                            onClick={toggleExpanded}
-                            className="toggle-text"
-                            style={{color: '#FFF'}}
-                        >
-                            Ver menos
-                        </p>
-                    </>
+                    <p onClick={toggleExpanded} className="toggle-text" style={{ color: '#FFF' }}>
+                        Ver menos
+                    </p>
                 )}
                 <CommentSection
                     postagemId={id}

@@ -34,6 +34,22 @@ export const ModalContent = styled.div`
     color: white;
     text-align: center;
   }
+  .close-button {
+    position: absolute; /* Posiciona o botão em relação ao modal */
+    top: -50px;          /* Ajusta a distância do topo */
+    left: 10px;         /* Ajusta a distância da lateral esquerda */
+    background: none;   /* Remove o fundo padrão */
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;        /* Garante que o botão fique acima de outros elementos */
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: #8f32cc;   /* Muda a cor no hover para indicar interatividade */
+    }
 `;
 
 export const NewPost = styled.div`

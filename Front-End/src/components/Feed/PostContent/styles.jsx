@@ -27,7 +27,7 @@ export const Container = styled.div`
     img {
         display: block;
         margin: 0 auto;
-        max-width: 100%; /* Garante que a imagem nunca ultrapasse o limite do post */
+        max-width: 100%;
         height: auto;
         border-radius: 5px;
         margin-bottom: 3%;
@@ -41,25 +41,25 @@ export const Container = styled.div`
         color: white;
         cursor: pointer;
         font-family: "Oswald", sans-serif;
-        font-size: 16px; /* Tamanho da fonte */
-        transition: background-color 0.3s ease, transform 0.2s ease; /* Transições suaves */
+        font-size: 16px;
+        transition: background-color 0.3s ease, transform 0.2s ease;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
 
         &:hover {
             background-color: #a071e1;
-            transform: scale(1.05); /* Leve aumento ao passar o mouse */
+            transform: scale(1.05);
         }
 
         &:active {
             background-color: #8a60c1;
-            transform: scale(0.98); /* Efeito de clique */
+            transform: scale(0.98);
         }
     }
 
     .like-section {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 15px; /* Espaçamento entre os elementos */
         margin-top: 15px;
         margin-bottom: 15px;
     }
@@ -78,7 +78,22 @@ export const Container = styled.div`
         }
 
         &.liked {
-            color: #ff3b3f; /* Cor do botão quando curtido */
+            color: #ff3b3f;
+        }
+    }
+
+    .delete-button {
+        padding: 8px 12px;
+        background-color: #ff4d4d;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #e63c3c;
         }
     }
 
@@ -105,5 +120,4 @@ export const Container = styled.div`
         padding-left: 9%;
         padding-right: 9%;
     }
-
 `;

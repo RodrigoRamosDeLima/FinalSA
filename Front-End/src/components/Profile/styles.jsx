@@ -41,7 +41,7 @@ export const FormGroup = styled.form`
 
     button {
         padding: 10px 20px;
-        background-color: #b083f1;
+        background-color: #a83eff;
         border: none;
         border-radius: 8px;
         color: white;
