@@ -43,7 +43,7 @@ Além disso, o projeto inclui o **BarBot**, uma inteligência artificial que sug
 ### **Passos Gerais**
 
 1. Clone o repositório:
-    git clone https://github.com/seuusuario/liquid.git
+    git clone https://github.com/RodrigoRamosDeLima/FinalSA.git
     cd liquid
        
 2. 	Configure e inicialize os serviços:
