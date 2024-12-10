@@ -91,7 +91,7 @@ export const SendButton = styled.button`
   padding-top: 2px;
 
   &:hover {
-    background-color: #357abd;
+    background-color: #a83eff;
   }
 
   &:focus {

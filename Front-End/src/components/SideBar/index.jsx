@@ -80,7 +80,7 @@ export default function SideBar({ handleModalChange, handlePageChange, page }) {
             <MenuItem
               onClick={logout}
             >
-              Logout
+              Sair
             </MenuItem>
           </Menu>
         </NavMenu>

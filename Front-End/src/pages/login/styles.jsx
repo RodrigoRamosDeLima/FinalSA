@@ -77,7 +77,7 @@ export const Form = styled.form`
 export const Btn = styled.button`
   width: 100%;
   padding: 0.8rem;
-  background-color: #0095f6;
+  background-color: #a83eff;
   border: none;
   border-radius: 4px;
   color: #fff;
@@ -88,7 +88,7 @@ export const Btn = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #007bbf;
+    background-color: #862ECC;
   }
 `;
 
