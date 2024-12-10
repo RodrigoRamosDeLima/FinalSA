@@ -46,7 +46,7 @@ export default function Post({handleModalChange}) {
                     X
                 </button>
                 <NewPost>
-                    <h2>Novo Post</h2>
+                    <h1>Novo Post</h1>
                     <form onSubmit={handleSubmit}>
                         <input
                             type="file"

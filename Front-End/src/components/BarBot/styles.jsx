@@ -7,6 +7,7 @@ export const Container = styled.div`
   border-radius: 10px;
   color: white;
   padding: 30px 5% 30px 25%;
+  
 `;
 
 export const TextArea = styled.textarea`
@@ -29,6 +30,7 @@ export const AnswerBox = styled.textarea`
   resize: vertical;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Oswald", sans-serif;
 
   &::placeholder {
     font-size: 1rem;
@@ -48,6 +50,7 @@ export const TextBox = styled.textarea`
   resize: vertical;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Oswald", sans-serif;
 
   &:focus {
     border-color: #4a90e2;

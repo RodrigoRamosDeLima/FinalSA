@@ -8,6 +8,7 @@ export const Container = styled.div`
     gap: 20px;
     padding-left: 20%;
     padding-right: 20%;
+    
 `;
 
 export const FeedContent = styled.div`

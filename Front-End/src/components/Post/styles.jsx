@@ -10,6 +10,7 @@ export const ModalBackground = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  
 `;
 
 export const ModalContent = styled.div`
@@ -22,6 +23,7 @@ export const ModalContent = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  
 
   > div {
     background-color: #333;
@@ -57,17 +59,23 @@ export const NewPost = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
+  
+  
 
-  h2 {
-    color: #a83eff;
+  h1 {
+    color: #fff;
     margin-bottom: 20px;
     text-align: center;
+    
   }
 
   input[type='file'] {
     margin-bottom: 10px;
     border: 0;
+    font-family: "Oswald", sans-serif;
   }
+  
+
 
   textarea {
     width: 100%;
@@ -79,6 +87,7 @@ export const NewPost = styled.div`
     border-radius: 5px;
     background-color: #222;
     color: white;
+    font-size: 16px;
   }
 
   button {

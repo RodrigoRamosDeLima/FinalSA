@@ -11,7 +11,7 @@ export const EditProfile = styled.div`
 
     & h2 {
         font-size: 48px;
-        color: #a83eff;
+        color: #fff;
     }
 `;
 
@@ -20,7 +20,7 @@ export const FormGroup = styled.form`
 
     label {
         font-size: 1.5rem;
-        color: #d9d9d9;
+        color: #fff;
         display: block;
         margin-bottom: 5px;
     }
