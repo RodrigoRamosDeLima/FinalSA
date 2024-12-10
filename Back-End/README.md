@@ -65,11 +65,4 @@ O backend do Liquid gerencia autenticação de usuários, operações CRUD e a i
 - JWT.
 - PostgreSQL Driver.
 
----
 
-
-
-Adicione prints do Swagger para ilustrar:
-
-- Lista de endpoints.
-- Exemplo de requisição e resposta.
