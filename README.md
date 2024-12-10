@@ -58,7 +58,6 @@ Além disso, o projeto inclui o **BarBot**, uma inteligência artificial que sug
 
 - **/frontend**: Código do frontend.
 - **/backend**: Código do backend.
-- **/docs**: Documentação e outros materiais.
 
 ---
 
