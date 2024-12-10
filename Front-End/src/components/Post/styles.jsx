@@ -28,7 +28,7 @@ export const ModalContent = styled.div`
   > div {
     background-color: #333;
     border-radius: 8px;
-    max-width: 700px;
+    max-width: 750px;
     max-height: 80vh;
     overflow-y: auto;
     padding: 10px;
@@ -37,8 +37,8 @@ export const ModalContent = styled.div`
     text-align: center;
   }
   .close-button {
-    position: absolute; /* Posiciona o botão em relação ao modal */
-    top: -50px;          /* Ajusta a distância do topo */
+
+    top: 10px;          /* Ajusta a distância do topo */
     left: 10px;         /* Ajusta a distância da lateral esquerda */
     background: none;   /* Remove o fundo padrão */
     border: none;
@@ -74,7 +74,9 @@ export const NewPost = styled.div`
     border: 0;
     font-family: "Oswald", sans-serif;
   }
-  
+  input[type='text']::placeholder {
+    color: white; 
+}
 
 
   textarea {
@@ -88,6 +90,10 @@ export const NewPost = styled.div`
     background-color: #222;
     color: white;
     font-size: 16px;
+  }
+  textarea::placeholder {
+    color: white; 
+
   }
 
   button {

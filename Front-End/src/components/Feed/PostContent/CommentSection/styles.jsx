@@ -20,7 +20,7 @@ export const CommentSectionStyle = styled.div`
 
   li {
     margin-bottom: 5px;
-    color: #ccc;
+    color: #fff;
   }
 
   input {
@@ -32,6 +32,17 @@ export const CommentSectionStyle = styled.div`
     background-color: #222;
     color: white;
   }
+  input[type='text'] {
+    color: white;
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+}
+
+/* Estilo para o placeholder */
+input[type='text']::placeholder {
+    color: white; 
+}
+
 
   button {
     padding: 6px 10px;

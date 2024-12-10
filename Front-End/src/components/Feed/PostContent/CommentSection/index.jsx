@@ -45,7 +45,7 @@ export default function CommentSection({postagemId}) {
                     type="text"
                     value={newComment}
                     onChange={(e) => setNewComment(e.target.value)}
-                    placeholder="Adicione um comentário"
+                    placeholder="Adicione um comentário..."
                 />
                 <button onClick={handleAddComment}>Comentar</button>
             </div>
