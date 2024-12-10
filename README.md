@@ -20,7 +20,7 @@ Além disso, o projeto inclui o **BarBot**, uma inteligência artificial que sug
     - Personalize seu perfil com nome e biografia curta.
 4. **BarBot - Assistente de Drinks**
     - Sugestões personalizadas de drinks usando ingredientes disponíveis.
-    - Receitas detalhadas e histórias sobre coquetéis icônicos.
+    - Receitas detalhadas e curiosidades sobre coquetéis icônicos.
 
 ---
 
